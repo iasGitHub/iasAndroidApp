@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/text_profil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/monProfil"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#FF000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginTop="60dp"
+            android:text="Je suis mauritanien, et je suis developpeur Je m’appelle IDRISS, j’ai eu le baccaleauréat scientifique en 2013. Suite à celà j’ai été orienté à l’université de Nouakchott Al Assriya où j’ai suivi une formation qui a duré 4 ans sanctionnée d’une licence en mathématiques option : Mathématiques - Informatiques. Par la suite j’ai échoué à m’inscrire en master dans cette université, ce qui m’a conduit à opter pour une formation professionnelle spécialement en informatique et le choix était celui d’ISI en intégrant la troisième année du cycle d’ingénieur en technique informatique en 2019. Actuellement je suis une formation en Dev Web et Web Mobile depuis Semptembre dans le cadre du programme de Simplon." />
+
+        <TextView
+            android:id="@+id/title_formation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="340dp"
+            android:text="@string/parcours"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#000000"
+            android:layout_marginLeft="150dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/photo_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:layout_marginTop="460dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mobile" />
+
+        <TextView
+            android:id="@+id/title_competence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="990dp"
+            android:text="@string/competence"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#000000"
+            android:layout_marginLeft="150dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/photo_comptence"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_marginTop="1060dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ux" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
