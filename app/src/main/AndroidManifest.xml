@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IasAndroidApp">
         <activity
+            android:name=".loisirsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".referenceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".qualiteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".experienceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".footerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".profilActivity"
+            android:exported="true" />
+        <activity
+            android:name=".competenceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".formationActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

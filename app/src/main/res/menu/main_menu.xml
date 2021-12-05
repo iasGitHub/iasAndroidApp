@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Accueil"
+        android:id="@+id/accueil_menu"
+        android:onClick=""/>
+    <item android:title="Profil"
+        android:id="@+id/profil_menu"
+        android:onClick=""/>
+    <item android:title="Formation"
+        android:id="@+id/formation_menu"/>
+    <item android:title="Competences"
+        android:id="@+id/competence_menu"/>
+    <item android:title="Experience"
+        android:id="@+id/experience_menu"/>
+    <item android:title="Qualités personnelles"
+        android:id="@+id/qualite_menu"/>
+    <item android:title="Service"
+        android:id="@+id/service_menu"/>
+    <item android:title="Reference"
+        android:id="@+id/reference_menu"/>
+    <item android:title="Centre d\'interet"
+        android:id="@+id/loisirs_menu"/>
+
+</menu>
+
